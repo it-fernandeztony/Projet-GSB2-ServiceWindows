@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="champ method" Url="html/72f77c29-ffd6-1cac-091e-1a42a06f1b3c.htm" />
+  <HelpKINode Title="close method" Url="html/2d2cbe20-5565-94e1-39c2-db593fe15920.htm" />
+  <HelpKINode Title="ConnexionSql class">
+    <HelpKINode Title="ConnexionSql Class" Url="html/808d76ce-2e05-0dd2-6d64-1419c2296e93.htm" />
+    <HelpKINode Title="methods" Url="html/4e9226e5-b287-8203-e529-2ca571cf906b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConnexionSql.champ method" Url="html/72f77c29-ffd6-1cac-091e-1a42a06f1b3c.htm" />
+  <HelpKINode Title="ConnexionSql.close method" Url="html/2d2cbe20-5565-94e1-39c2-db593fe15920.htm" />
+  <HelpKINode Title="ConnexionSql.fin method" Url="html/cb6c6703-dbaa-8b12-d9be-e47f6e16e246.htm" />
+  <HelpKINode Title="ConnexionSql.getConnexionSql method" Url="html/e84ea598-bf9f-9e08-c8fd-fbaf96e41688.htm" />
+  <HelpKINode Title="ConnexionSql.reqSelect method" Url="html/4c74dc8a-bcd5-4ca0-9743-4bf9e6225d36.htm" />
+  <HelpKINode Title="ConnexionSql.reqUpdate method" Url="html/ab4611d5-54f7-9367-72fd-eaf9f745dcbc.htm" />
+  <HelpKINode Title="ConnexionSql.suivant method" Url="html/6fa23205-9c95-8374-936a-ab56753e06c6.htm" />
+  <HelpKINode Title="Dispose method" Url="html/b04febab-8181-930e-cb24-87de647a692b.htm" />
+  <HelpKINode Title="Entre method" Url="html/7c5cf950-242d-0e50-f3ee-a29624269af7.htm" />
+  <HelpKINode Title="fin method" Url="html/cb6c6703-dbaa-8b12-d9be-e47f6e16e246.htm" />
+  <HelpKINode Title="GestionDeDates class">
+    <HelpKINode Title="GestionDeDates Class" Url="html/40f714f8-0406-ab98-6692-463ab3116d56.htm" />
+    <HelpKINode Title="constructor" Url="html/b790dd8f-4d08-2022-2eec-8b19ea12ab9f.htm" />
+    <HelpKINode Title="methods" Url="html/2e3f8cb1-11b8-4c72-b198-5ef3f9a589dd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GestionDeDates.Entre method" Url="html/7c5cf950-242d-0e50-f3ee-a29624269af7.htm" />
+  <HelpKINode Title="GestionDeDates.GestionDeDates constructor" Url="html/b790dd8f-4d08-2022-2eec-8b19ea12ab9f.htm" />
+  <HelpKINode Title="GestionDeDates.GetMoisPrecedent method" Url="html/9d16725a-5b0b-0c64-9aba-a8563c493e19.htm" />
+  <HelpKINode Title="GestionDeDates.GetMoisSuivant method" Url="html/c36c4818-5ad9-f806-bc8a-81c95c859a45.htm" />
+  <HelpKINode Title="getConnexionSql method" Url="html/e84ea598-bf9f-9e08-c8fd-fbaf96e41688.htm" />
+  <HelpKINode Title="GetMoisPrecedent method" Url="html/9d16725a-5b0b-0c64-9aba-a8563c493e19.htm" />
+  <HelpKINode Title="GetMoisSuivant method" Url="html/c36c4818-5ad9-f806-bc8a-81c95c859a45.htm" />
+  <HelpKINode Title="OnStart method" Url="html/c02a7661-2db0-7987-1691-ba188ef8f21c.htm" />
+  <HelpKINode Title="OnStop method" Url="html/45202894-e43f-a068-2f4d-8db590233f92.htm" />
+  <HelpKINode Title="reqSelect method" Url="html/4c74dc8a-bcd5-4ca0-9743-4bf9e6225d36.htm" />
+  <HelpKINode Title="reqUpdate method" Url="html/ab4611d5-54f7-9367-72fd-eaf9f745dcbc.htm" />
+  <HelpKINode Title="Service1 class">
+    <HelpKINode Title="Service1 Class" Url="html/8b7bc551-ab89-adfc-05c5-94f1641503a2.htm" />
+    <HelpKINode Title="constructor" Url="html/622c4b33-2b3c-72eb-1a14-fe46474968a1.htm" />
+    <HelpKINode Title="events" Url="html/09cb0ea8-fc7b-cc83-fbd8-4d649651c557.htm" />
+    <HelpKINode Title="methods" Url="html/b59399ef-8446-1c88-da1c-11e2891e1553.htm" />
+    <HelpKINode Title="properties" Url="html/8e425896-7bba-8efc-28aa-151a85815a3b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Service1.Dispose method" Url="html/b04febab-8181-930e-cb24-87de647a692b.htm" />
+  <HelpKINode Title="Service1.OnStart method" Url="html/c02a7661-2db0-7987-1691-ba188ef8f21c.htm" />
+  <HelpKINode Title="Service1.OnStop method" Url="html/45202894-e43f-a068-2f4d-8db590233f92.htm" />
+  <HelpKINode Title="Service1.Service1 constructor" Url="html/622c4b33-2b3c-72eb-1a14-fe46474968a1.htm" />
+  <HelpKINode Title="suivant method" Url="html/6fa23205-9c95-8374-936a-ab56753e06c6.htm" />
+  <HelpKINode Title="WindowsServiceClotureDeFiche namespace" Url="html/d7d61558-6e12-b8e1-2af6-e4222d9836df.htm" />
+  <HelpKINode Title="WindowsServiceClotureDeFiche.ConnexionSql class" Url="html/808d76ce-2e05-0dd2-6d64-1419c2296e93.htm" />
+  <HelpKINode Title="WindowsServiceClotureDeFiche.GestionDeDates class" Url="html/40f714f8-0406-ab98-6692-463ab3116d56.htm" />
+  <HelpKINode Title="WindowsServiceClotureDeFiche.Service1 class" Url="html/8b7bc551-ab89-adfc-05c5-94f1641503a2.htm" />
+</HelpKI>
