@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Author : FERNANDEZ Tony
+    Created On: ‎jeudi ‎11 ‎mars ‎2021, ‏‎18:30:37
+    Last Modified on : ‎‎dimanche ‎21 ‎mars ‎2021, ‏‎11:29:28
+    Copy Rights : GSB
+    Description : Installateur Windows pour le service windows
+-->
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="SetupGSBServiceWindows" Language="1033" Version="1.0.0.0" Manufacturer="GSB" UpgradeCode="fcef2b98-6667-4f5f-ab22-008377180cf0">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" Manufacturer="Fernandez Tony" />
+    <Property Id="ARPCONTACT" Value="Fernandez Tony" />
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate />
+    <Feature Id="ProductFeature" Title="SetupGSBServiceWindows" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+  </Product>
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="SetupGSBServiceWindows" />
+      </Directory>
+    </Directory>
+  </Fragment>
+  <Fragment>
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <!-- Réaliser à l'aide de https://github.com/Robs79/How-to-create-a-Windows-Service-MSI-Installer-Using-WiX/blob/master/WindowsService.Installer/Product.wxs -->
+       <Component Id="ProductComponent">
+         <File
+          Id="WindowsServiceClotureDeFicheEXE"
+          Name="WindowsServiceClotureDeFiche.exe"
+          DiskId="1"
+          Source="$(var.WindowsServiceClotureDeFiche.TargetPath)"
+          Vital="yes"
+          KeyPath="yes" />
+
+         <ServiceInstall Id="ServiceInstaller" Type="ownProcess" Vital="yes"
+             Name="GSBFicheDeFrais" DisplayName="GSBFicheDeFrais"
+             Description="Modifie les fiches de frais" Start="auto"
+             Account="LocalSystem" ErrorControl="normal"
+             Arguments=" /start GSBFicheDeFrais"
+             Interactive="no" />
+
+         <ServiceControl Id="StartService"  Stop="both" Start="install" Remove="uninstall"
+             Name="GSBFicheDeFrais" Wait="yes" />
+       </Component> 
+    </ComponentGroup>
+  </Fragment>
+</Wix>

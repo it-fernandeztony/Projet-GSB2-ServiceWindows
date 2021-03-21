@@ -1,0 +1,7 @@
+C:\Users\Deeja\source\repos\SetupGSBServiceWindows\bin\Debug\SetupGSBServiceWindows.msi
+C:\Users\Deeja\source\repos\SetupGSBServiceWindows\bin\Debug\SetupGSBServiceWindows.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\SetupGSBServiceWindows.wixproj.BindContentsFileListnull.txt
+obj\Debug\SetupGSBServiceWindows.wixproj.BindOutputsFileListnull.txt
+obj\Debug\SetupGSBServiceWindows.wixproj.BindBuiltOutputsFileListnull.txt
+C:\Users\Deeja\source\repos\SetupGSBServiceWindows\bin\Debug\cab1.cab

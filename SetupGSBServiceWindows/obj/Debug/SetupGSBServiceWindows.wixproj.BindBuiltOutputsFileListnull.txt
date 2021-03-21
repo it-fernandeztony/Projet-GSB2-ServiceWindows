@@ -1,0 +1,3 @@
+C:\Users\Deeja\source\repos\SetupGSBServiceWindows\bin\Debug\cab1.cab
+C:\Users\Deeja\source\repos\SetupGSBServiceWindows\bin\Debug\SetupGSBServiceWindows.msi
+C:\Users\Deeja\source\repos\SetupGSBServiceWindows\bin\Debug\SetupGSBServiceWindows.wixpdb
